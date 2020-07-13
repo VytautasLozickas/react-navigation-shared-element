@@ -37,7 +37,7 @@ export function createSharedElementNavigatorFactory<
         StackNavigationOptions,
         StackNavigationEventMap
       >,
-      "component" | "children"
+      "component" | "children" | "getComponent"
     > & {
       component: SharedElementSceneComponent;
       sharedElements?: SharedElementsComponentConfig;
